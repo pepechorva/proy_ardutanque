@@ -1,0 +1,12 @@
+TODO SOFTWARE
+comunicación  por RF (ver sketches emisor_RF y receptor_RF)
+lectura de los sensores del wiichuck (ver sketches de wiichuck)
+creación protocolo de control de tanque?
+
+TODO HARDWARE
+placa para conectar atmega sin placa arduino (ajustar a espacio en tanque) usar ICSP o atmega de quita y pon?
+planchar y montar puente H
+diseño y montaje de barra frontal para siguelíneas
+
+
+
