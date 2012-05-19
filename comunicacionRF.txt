@@ -1,0 +1,21 @@
+Modos de funcionamiento:
+RF:
+
+trama de datos;
+<dirMot1;dirMot2;speedMot1;speedMot2>
+
+ejemplo
+<0;1;1023;255>
+
+
+  uint8_t es ambiguo, USAR CASTS
+
+[...]
+    uint8_t buf[VW_MAX_MESSAGE_LEN];
+    uint8_t buflen = VW_MAX_MESSAGE_LEN;
+[...]
+            if((char)buf[i] == 'r'){Serial.print("R");}
+	    else Serial.print(buf[i]);
+            if((int)buf[i] == 5){Serial.print("por el culo de la hinco");}
+	    Serial.print(" ");
+[...]
